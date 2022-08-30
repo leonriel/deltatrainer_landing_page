@@ -1,0 +1,104 @@
+@media (min-width: 300px) {
+    .short-reviews-header {
+        font-size: 1.5rem;
+        width: 70%;
+    }
+
+    .short-reviews-carousel > .carousel-inner {
+        padding: 1rem 0 4rem 0;
+    }
+
+    .short-reviews-carousel > .carousel-control-prev > .carousel-control-prev-icon {
+        height: 2rem !important;
+        width: 2rem !important;
+        filter: brightness(25%);
+    }
+
+    .short-reviews-carousel > .carousel-control-next > .carousel-control-next-icon {
+        height: 2rem !important;
+        width: 2rem !important;
+        filter: brightness(25%);
+    }
+
+    .short-review-card {
+        border-radius: 2rem;
+        width: 85%;
+    }
+
+    .short-review-text-container {
+        height: 15rem;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .short-review-text {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 768px) {
+    .short-reviews-header {
+        font-size: 2.0625rem;
+        width: auto;
+    }
+
+    .short-reviews-carousel > .carousel-inner {
+        padding: 1rem 0 4rem 0;
+    }
+
+    .short-reviews-carousel > .carousel-control-prev > .carousel-control-prev-icon {
+        height: 3.125rem !important;
+        width: 3.125rem !important;
+        filter: brightness(25%);
+    }
+
+    .short-reviews-carousel > .carousel-control-next > .carousel-control-next-icon {
+        height: 3.125rem !important;
+        width: 3.125rem !important;
+        filter: brightness(25%);
+    }
+
+    .short-reviews-row {
+        width: 80%;
+    }
+
+    .short-review-card {
+        border-radius: 2rem;
+        width: 95%;
+    }
+
+    .short-review-text-container {
+        height: 16rem;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .short-review-text {
+        font-size: 1.0625rem;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 1310px) {
+    .short-reviews-row {
+        width: 70%;
+    }
+
+    .short-review-card {
+        width: 85%;
+    }
+
+    .short-review-text-container {
+        height: 15rem;
+    }
+}
+
+.short-reviews-carousel > .carousel-indicators > li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin: 0 0.25rem 0 0.25rem;
+}

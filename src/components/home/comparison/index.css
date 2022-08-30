@@ -1,0 +1,77 @@
+@media (min-width: 300px) {
+    .small-circle {
+        width: 32px;
+        height: 33px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    .comparison-header-row {
+        margin-bottom: 0.25rem !important;
+        width: 8.28125rem !important;
+    }
+
+    .others-header-container {
+        padding-top: 3.0625rem;
+    }
+
+    .comparison-header {
+        font-size: 1.5625rem !important;
+    }
+
+    .comparison-item {
+        height: 11.25rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .small-circle {
+        width: 50px;
+        height: 49px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    .comparison-row {
+        padding-bottom: 3rem;
+    }
+
+    .comparison-header-row {
+        margin-bottom: 0 !important;
+        width: auto !important;
+    }
+
+    .others-header-container {
+        padding-top: 0.75rem;
+    }
+
+    .comparison-header {
+        font-size: 2.0625rem !important;
+    }
+
+    .comparison-item {
+        height: auto !important;
+    }
+
+    .bars {
+        margin-left: 0.0625rem;
+    }
+}
+
+.inner-circle {
+    display: inline;
+    height: 100%;
+    width: auto;
+}
+
+.comparison-header-container {
+    background-color: #272433 !important;
+    /* background-color: #2d2c32 !important; */
+}
+
+.comparison-item {
+    background-color: #272433 !important;
+    /* background-color: #2d2c32 !important; */
+}

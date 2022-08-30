@@ -1,0 +1,53 @@
+@media (min-width: 300px) {
+    .partners-row {
+        width: 20rem;
+    }
+
+    .kaleos-col {
+        padding-right: 0 !important;
+        padding-lefT: 0 !important;
+    }
+
+    .shape-col {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .shape-img {
+        height: 4rem;
+        width: 4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .partners-row {
+        width: 52rem;
+    }
+
+    .kaleos-col {
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
+    }
+
+    .shape-col {
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
+    }
+
+    .shape-img {
+        height: 4.9375rem;
+        width: 4.9375rem;
+    }
+}
+
+.partners-header {
+    font-weight: 600;
+    font-size: 1.0625rem;
+    color: #ffffff;
+}
+
+.shape-text {
+    font-weight: 400;
+    font-size: 1.0625rem;
+    color: #7e889c;
+}

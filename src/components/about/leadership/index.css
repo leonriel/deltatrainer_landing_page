@@ -1,0 +1,116 @@
+@media (min-width: 300px) {
+    .leadership-header {
+        margin-bottom: 1.5rem;
+    }
+
+    .headshots-container {
+        flex-direction: column;
+    }
+
+    .headshot-container {
+        width: auto;
+        padding-top: 1.25rem;
+    }
+
+    .leadership-line {
+        width: 17rem;
+    }
+
+    .investor-col {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center
+    }
+
+    .incite {
+        height: 12rem;
+    }
+
+    .drive {
+        height: 12rem;
+    }
+
+    .pbv {
+        height: 6rem;
+        align-self: center;
+    }
+
+    .investor-text-container {
+        padding: 1.25rem;
+    }
+
+    .investor-text {
+        font-size: 1.15rem;
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 768px) {
+    .leadership-header {
+        margin-bottom: 3rem;
+    }
+
+    .headshots-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .headshot-container {
+        width: 25%;
+        padding: 0.75rem 1.25rem;
+    }
+
+    .leadership-line {
+        width: 62rem;
+    }
+
+    .investor-col {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .incite {
+        height: 12rem;
+    }
+
+    .drive {
+        height: 12rem;
+    }
+
+    .pbv {
+        height: 6rem;
+        align-self: center;
+    }
+
+    .investor-text-container {
+        padding: 1.25rem;
+        align-self: flex-end;
+    }
+
+    .investor-text {
+        font-size: 1.15rem;
+        font-weight: 300;
+    }
+}
+
+.leadership-header {
+    font-weight: 200;
+    font-size: 2.0625rem;
+}
+
+.linkedin-link {
+    color: #212529;
+}
+
+.linkedin-link:hover {
+    color: #70788a;
+    text-decoration: none;
+}
+
+.linked-in:visited {
+    color: #212529;
+    text-decoration: none;
+}

@@ -1,0 +1,139 @@
+@media (min-width: 300px) {
+    .workout-feedback-container {
+        height: 60rem;
+    }
+
+    .workout-feedback-row {
+        margin-top: 1.5rem !important;
+        margin-bottom: 1.5rem ! important;
+    }
+
+    .workout-feedback-header-container {
+        margin-bottom: 1.5rem !important;
+        width: auto;
+    }
+
+    .workout-feedback-header {
+        text-align: center;
+        font-size: 1.6875rem;
+        font-weight: 200;
+    }
+
+    .long-text-container {
+        width: auto;
+        position: absolute;
+        top: 32.5rem;
+        right: 0;
+    }
+
+    .short-text-container {
+        width: auto;
+        position: absolute;
+        top: 42rem;
+        right: 0;
+    }
+
+    .watch-video-btn-container {
+        width: 100%;
+        position: absolute;
+        top: 47.5rem;
+        right: 0;
+        text-align: center;
+    }
+
+    .wave-data-img {
+        width: 16rem;
+        bottom: -10rem;
+        left: 5.5rem;
+    }
+
+    .line-data-img {
+        width: 16rem;
+        bottom: -23rem;
+        left: 5.5rem;
+    }
+
+    .trainer-ipad-img {
+        height: 23rem;
+        bottom: auto;
+        right: 5.5rem;
+    } 
+}
+
+@media (min-width: 768px) {
+    .workout-feedback-row.standard-width {
+        width: 70rem !important;
+    }
+
+    .workout-feedback-container {
+        height: auto;
+    }
+
+    .workout-feedback-row {
+        margin-top: 3rem !important;
+        margin-bottom: 3rem ! important;
+    }
+
+    .workout-feedback-header-container {
+        margin-bottom: auto !important;
+        /* width: 21.25rem; */
+        width: 29rem;
+    }
+
+    .workout-feedback-header {
+        text-align: left;
+        font-size: 2.0625rem;
+        font-weight: 100;
+    }
+
+    .long-text-container {
+        /* width: 21.25rem; */
+        width: 29rem;
+        position: static;
+        top: auto;
+        right: auto;
+    }
+
+    .short-text-container {
+        /* width: 20rem; */
+        width: 28rem;
+        position: static;
+        top: auto;
+        right: auto;
+    }
+
+    .watch-video-btn-container {
+        width: 21.25rem;
+        position: static;
+        top: auto;
+        right: auto;
+        text-align: left;
+    }
+
+    .wave-data-img {
+        width: 24.5625rem;
+        bottom: auto;
+        /* left: 12.5rem; */
+        left: 20.5rem;
+    }
+
+    .line-data-img {
+        width: 21.375rem;
+        /* left: 16rem; */
+        left: 24rem;
+        top: 13rem;
+    }
+
+    .trainer-ipad-img {
+        width: 22.125rem;
+        height: auto;
+        bottom: -4rem;
+        right: auto;
+        left: 8rem;
+    }
+}
+
+.workout-feedback-text {
+    font-size: 1.0625rem !important;
+    font-weight: 200 !important;
+}

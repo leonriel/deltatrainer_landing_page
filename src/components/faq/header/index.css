@@ -1,0 +1,34 @@
+@media (min-width: 300px) {
+    .faq-header-text-container {
+        transform: translateY(-20%);
+    }
+
+    .faq-header-text {
+        font-size: 2.5625rem;
+        font-weight: 200;
+    }
+
+    .faq-header-img {
+        filter: brightness(75%);
+    }
+}
+
+@media (min-width: 768px) {
+    .faq-header-container {
+        height: 25.0625rem;
+    }
+
+    .faq-header-img {
+        transform: translateY(-8%);
+        filter: brightness(75%);
+    }
+
+    .faq-header-text-container {
+        top: 45%;
+    }
+
+    .faq-header-text {
+        font-size: 3.75rem;
+        font-weight: 200;
+    }
+}

@@ -1,0 +1,80 @@
+@media (min-width: 300px) {
+    .holiday-pricing-header {
+        font-size: 1.75rem;
+        font-weight: 200;
+        width: auto;
+    }
+
+    .holiday-pricing-big-text {
+        font-size: 2.3125rem;
+        font-weight: 400;
+        color: #366cf8;
+        margin-bottom: 1rem;
+    }
+
+    .sale-info-container {
+        width: 18.5rem;
+    }
+
+    .program-items-header {
+        font-size: 1.0625rem;
+        font-weight: 500;
+    }
+
+    .program-item-text {
+        font-size: 1.0625rem;
+        font-weight: 300;
+    }
+
+    .check-mark {
+        width: 1.875rem;
+        height: 1.5625rem;
+    }
+
+    .billed-monthly-text {
+        font-weight: 300;
+        font-size: .75rem;
+        width: 14rem;
+    }  
+}
+
+@media (min-width: 768px) {
+    .holiday-pricing-header {
+        font-size: 2.0625rem;
+        font-weight: 100;
+        width: auto;
+    }
+
+    .holiday-pricing-big-text {
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: #366cf8;
+        margin-bottom: 1rem;
+    }
+
+    .sale-info-container {
+        width: 21.375rem;
+    }
+
+    .program-items-header {
+        font-size: 1.1875rem;
+        font-weight: 500;
+    }
+
+    .program-item-text {
+        font-size: 1.1875rem;
+        font-weight: 300;
+    }
+
+    .check-mark {
+        width: 2.625rem;
+        height: 2.1875rem;
+    }
+
+    .billed-monthly-text {
+        font-weight: 300;
+        font-size: .75rem;
+        width: auto;
+    }
+}
+

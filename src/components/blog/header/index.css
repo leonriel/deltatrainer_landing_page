@@ -1,0 +1,38 @@
+@media (min-width: 300px) {
+    .blog-header-container {
+        height: 11.1875rem;
+    }
+
+    .blog-header-text-container {
+        transform: translateY(-20%);
+    }
+
+    .blog-header-text {
+        font-size: 2.5625rem;
+        font-weight: 200;
+    }
+
+    .blog-header-img {
+        filter: brightness(35%);
+    }
+}
+
+@media (min-width: 768px) {
+    .blog-header-container {
+        height: 25.0625rem;
+    }
+
+    .blog-header-img {
+        transform: translateY(-20%);
+        filter: brightness(35%);
+    }
+
+    .blog-header-text-container {
+        top: 45%;
+    }
+
+    .blog-header-text {
+        font-size: 3.75rem;
+        font-weight: 200;
+    }
+}

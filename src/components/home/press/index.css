@@ -1,0 +1,77 @@
+@media (min-width: 300px) {
+   .press-container {
+      padding: 2rem 0 2rem 0;
+   }
+
+   .press-header {
+      font-size: 1.6875rem;
+      font-weight: 200;
+      margin-bottom: 1.5rem;
+   }
+
+   .press-card {
+      width: 18rem !important;
+      height: 17rem !important;
+   }
+
+   .wheezy-waiter-col {
+      margin-bottom: 1.5rem;
+   }
+}
+
+@media (min-width: 768px) {
+   .press-container {
+      padding: 3rem 0 3rem 0;
+   }
+
+   .press-header {
+      font-size: 2.0625rem;
+      font-weight: 100;
+      margin-bottom: 3rem;
+   }
+
+   .press-card {
+      width: 15.0625rem !important;
+      height: 17.3125rem !important;
+   }
+
+   .wheezy-waiter-col {
+      margin-bottom: 3rem;
+   }
+
+   .col-md-1 {
+      -ms-flex: 0 0 8.333333% !important;
+      flex: 0 0 8.333333% !important;
+      max-width: 8.333333% !important;
+   }
+
+   .col-md-2 {
+      -ms-flex: 0 0 16.666667% !important;
+      flex: 0 0 16.666667% !important;
+      max-width: 16.666667% !important;
+   }
+
+   .col-md-3 {
+      -ms-flex: 0 0 25% !important;
+      flex: 0 0 25% !important;
+      max-width: 25% !important;
+   }
+}
+
+hr.press-line {
+   width: "5.3125rem";
+   text-align: "center";
+   border-top: 2px solid rgba(228, 229, 233, 1) !important;
+   width: 5.3125rem;
+}
+
+.press-card-text {
+   font-size: 1.0625rem;
+   font-weight: 200;
+   width: 11.25rem;
+}
+
+.press-card-link {
+   font-weight: 500;
+}
+

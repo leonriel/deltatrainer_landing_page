@@ -1,0 +1,34 @@
+@media (min-width: 300px) {
+    .woman-mat-img {
+        width: 20rem;
+    }
+
+    .woman-mat-container {
+        bottom: 20rem;
+        right: 0rem;
+    }
+
+    .quote-container {
+        margin-top: 3rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .woman-mat-img {
+        width: 26rem;
+    }
+
+    .woman-mat-container {
+        bottom: 0 !important;
+    }
+
+    .quote-container {
+        margin: auto !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .woman-mat-img {
+        width: 30.1875rem;
+    }
+}

@@ -1,0 +1,12 @@
+@media (min-width: 300px) {
+    .mobile-width-rating {
+        width: 20rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .standard-width-rating {
+        width: 30rem;
+        /* width: 40rem; */
+    }
+}

@@ -1,0 +1,25 @@
+@media (min-width: 300px) {
+  .questions-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .questions-container {
+    width: 43.0625rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.question {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #366cf8;
+}
+
+.answer {
+  font-weight: 300;
+  font-size: 1.0625rem;
+}

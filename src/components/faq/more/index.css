@@ -1,0 +1,67 @@
+@media (min-width: 300px) {
+    .more-questions-container {
+        height: 25rem;
+    }
+
+    .more-questions-text-col {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .iphone-img {
+        width: 13.125rem;
+        bottom: 0;
+    }
+
+    .front-iphone-img {
+        top: -7.5rem;
+    }
+
+    .back-iphone-img {
+        top: -4.5rem;
+        left: 9.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .more-questions-container {
+        height: 21.6875rem;
+    }
+
+    .more-questions-text-col {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .iphone-img {
+        width: 18.9375rem;
+        bottom: 0;
+    }
+
+    .front-iphone-img {
+        top: 1rem;
+    }
+
+    .back-iphone-img {
+        top: 5.5rem;
+        left: 13.5rem;
+    }
+}  
+
+.more-header {
+    font-weight: 300;
+    font-size: 1.625rem;
+    color: #ffffff;
+}
+
+.contact-us-button {
+    border-color: #ffffff !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-width: 0.125rem;
+}
+
+.contact-us-button:hover {
+    border-color: #a2a8ba !important;
+    color: #a2a8ba !important;
+}
+

@@ -1,0 +1,39 @@
+@media (min-width: 300px) {
+    .reviews-header-container {
+        height: 11.1875rem;
+    }
+
+    .reviews-header-img {
+        transform: translateY(-20%);
+        filter: brightness(35%);
+    }
+
+    .reviews-header-text-container {
+        transform: translateY(-20%);
+    }
+
+    .reviews-header-text {
+        font-size: 2.5625rem;
+        font-weight: 200;
+    }
+}
+
+@media (min-width: 768px) {
+    .reviews-header-container {
+        height: 25.0625rem;
+    }
+
+    .reviews-header-img {
+        transform: translateY(-32%);
+        filter: brightness(35%);
+    }
+
+    .reviews-header-text-container {
+        top: 45%;
+    }
+
+    .reviews-header-text {
+        font-size: 3.75rem;
+        font-weight: 200;
+    }
+}

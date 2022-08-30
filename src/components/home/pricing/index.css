@@ -1,0 +1,60 @@
+@media (min-width: 300px) {
+    .pricing-component {
+        height: 41rem;
+    }
+
+    .pricing-col {
+        margin-bottom: 1.5rem;
+    }
+
+    .pricing-header {
+        font-size: 1.6875rem;
+        font-weight: 700;
+        margin: auto;
+    }
+
+    .pricing-col-big-text {
+        font-size: 3rem;
+        font-weight: 400;
+        color: #366cf8;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .pricing-component {
+        height: auto;
+    }
+
+    .standard-width-pricing {
+        width: 44rem;
+    }
+
+    .pricing-col {
+        /* margin-bottom: 3rem; */
+        margin-bottom: 1.5rem
+    }
+
+    .pricing-header {
+        font-size: 2.0625rem;
+        font-weight: 700;
+        width: auto;
+    }
+
+    .pricing-col-big-text {
+        font-size: 3.125rem;
+        font-weight: 400;
+        color: #366cf8;
+        margin-bottom: 1rem;
+    }
+}
+
+.pricing-col-header {
+    font-size: 1.0625rem;
+    font-weight: 600;
+}
+
+.pricing-col-text {
+    font-size: 1.1875rem;
+    font-weight: 300;
+}

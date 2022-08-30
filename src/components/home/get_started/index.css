@@ -1,0 +1,45 @@
+@media (min-width: 300px) {
+    .get-started-header {
+        font-size: 1.6875rem;
+        font-weight: 200;
+    }
+
+    .get-started-item-header {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #ffffff;
+        letter-spacing: 0.0625rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .get-started-header {
+        font-size: 2.0625rem;
+        font-weight: 200;
+    }
+
+    .get-started-item-header {
+        font-size: 1.0625rem;
+        font-weight: 800;
+        color: #ffffff;
+        letter-spacing: 0.0625rem;
+    }
+}
+
+.get-started-list-group-item {
+    border: 0;
+    background-color: #272433 !important;
+    /* background-color: #2d2c32 !important; */
+}
+
+.get-started-item-text {
+    font-size: 1.0625rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.pairing-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

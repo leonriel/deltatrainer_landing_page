@@ -1,0 +1,42 @@
+@media (min-width: 300px) {
+    .background-container {
+        flex-direction: column;
+    }
+
+    .background-card-container {
+        width: auto;
+    }
+
+    .background-card {
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .background-container {
+        flex-direction: row;
+    }
+
+    .background-card-container {
+        width: 50%;
+    }
+
+    .background-card {
+        width: 90%;
+    }
+}
+
+.vl {
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+    height: 17.6875rem;
+}
+
+.blue-icon {
+    height: 4.8125rem;
+    width: 4.8125rem;
+}
+
+.background-text {
+    font-weight: 300;
+    font-size: 1.0625rem;
+}
